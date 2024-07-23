@@ -18,13 +18,13 @@ with st.sidebar:
     st.subheader("This app lets you chat with Llama 3.1 405B! [👉]")
     api_key = st.text_input("Enter your Fireworks API Key", type="password")
     add_vertical_space(2)
-    # st.markdown("""
-    # Want to lean how to build this? 
+    st.markdown("""
+    Want to lean how to build this? 
    
-    # Join [GenAI Course](https://www.buildfastwithai.com/genai-course) by Build Fast with AI!
-    # """)
-    # add_vertical_space(3)
-    # st.write("Reach out to me on [LinkedIn](https://www.linkedin.com/in/satvik-paramkusham)")
+    Join [GenAI Course](https://www.buildfastwithai.com/genai-course) by Build Fast with AI!
+    """)
+    add_vertical_space(3)
+    st.write("Reach out to me on [LinkedIn](https://www.linkedin.com/in/satvik-paramkusham)")
 
 
 # Initialize session state variables
